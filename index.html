@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Post Deletion</title>
+    <link rel="stylesheet" href="style.css"> <!-- Assicurati di creare anche un file CSS -->
+</head>
+<body>
+    <h1>Cancellazione Post Facebook</h1>
+    <div>
+        <label for="startDate">Data Inizio:</label>
+        <input type="date" id="startDate">
+    </div>
+    <div>
+        <label for="endDate">Data Fine:</label>
+        <input type="date" id="endDate">
+    </div>
+    <div>
+        <label for="accessToken">Token di Accesso:</label>
+        <input type="text" id="accessToken">
+    </div>
+    <button onclick="deletePosts()">Cancella Post</button>
+    <div id="results"></div>
+    <script src="script.js"></script> <!-- Assicurati di creare anche un file JavaScript -->
+</body>
+</html>
